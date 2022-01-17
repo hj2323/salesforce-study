@@ -16,3 +16,12 @@ Visualforce: 코드로 HTML과 매우 유사한 사용자 정의 Salesforce 페�
   Visualforce는 Lightning 구성 요소와 유사한 규칙인 <apex:tagName>을 사용
   
   조직의 모든 개체에는 API 이름이 있고, 이 이름으로 해당 개체에 대한 데이터에 액세스할 수 있습니다
+
+
+Service Cloud for Lightning Experience
+
+Service Cloud is an easy-to-use customer service application that can help you provide and track excellent service
+Service Setup is where you connect your customers to your service center.
+
+Case Management Tools
+Case management means organizing customer cases into one place and making sure they go to the right person, for the right answer, by the right time.
