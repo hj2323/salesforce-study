@@ -2,3 +2,9 @@ things studied yesterday
 - got 'service clouds basics' badge
 - borrowed some books related salesforce(trailbrazer, 세일즈포스, 디지털혁신의 판을 뒤집다)
 - apex prework (data managing)
+
+Salesforce 개발자가 알아야 하는 세 가지의 핵심 프로그래밍 기반 기술이 있습니다.
+
+Lightning 구성 요소 프레임워크: AngularJS 또는 React와 유사한 UI 개발 프레임워크.
+Apex: 구문이 Java와 유사한 Salesforce의 독자적인 프로그래밍 언어.
+Visualforce: 코드로 HTML과 매우 유사한 사용자 정의 Salesforce 페이지를 만들기 위해 사용할 수 있는 마크업 언어. 원할 경우 Apex와 JavaScript의 강력한 조합을 사용할 수 있음.
