@@ -1,0 +1,65 @@
+SOQL - join x , from 절에 테이블 하나만 올라감
+
+admin 반드시 따야함
+
+65~70 2시간동안 시험
+
+### 상시 시험
+
+시험시간은 편하게 지정가능
+
+---
+
+최대한 Declarative 를 활용하여 개발하여 세일즈포스 자체 업데이트가 시스템에 반영되도록 방향성을 잡고 실제 개발해야한다
+
+standard object → field → if it doesnt work make custom object
+
+need to relate custom object each other
+
+dynamic form → lightning app builder → conditionally show
+
+page layout per profiles
+
+different business scenario
+
+- page layout & picklist
+- record type with business processes
+
+# L7 Flow Basics and Screen Flows
+
+workflow
+
+process builder —→ flow
+
+<aside>
+💡 실제업무할때는 flow를 의도적으로 사용하려고 하기
+
+</aside>
+
+Flow ui 화면으로 프로그램을 다 딸 수 있다.
+
+- Screen Flow: 화면 만들기
+- Record-Triggered Flow :데이터가 저장되기 전에 데이터가 필요한 곳들을 저장
+- Schedule :스케쥴을 걸 수 있다(매일 저녁 4시에 돌아라)
+- Autolaunched Flow(No Trigger)딴 플로우에서 불러서 내부적으로 처리할 수 있음
+- Platform Event-Triggered Flow
+
+flow builder
+
+- resource와 elements를 조합해서 프로세스(프로그램)을 짠다
+
+debug가능
+
+Global Variables
+
+phone, name은 Advance에서 바로 값을 넣어줄수있다
+
+Text는 바로 값을 줄수 있는 기능이 없다 → Assignment element로 값을 따로 준다
+
+contact는 스탠다드 오브젝트라서 미리 설정된 required field가 있기 때문에 설정된 required field인 last name을 안넣으면 fault message가 뜨지만
+
+커스텀 오브젝트일 경우 field property에서 required field를 따로 설정할 수 있다
+
+## Context
+
+유저별로 레코드 볼 수 있는 능력이 있기 때문에 중요
