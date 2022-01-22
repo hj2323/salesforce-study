@@ -1,0 +1,152 @@
+# L8 Record-Triggered Flows
+
+<index>
+
+- DML and Record-Triggered Flows
+- $Record and $Record__Prior
+- Debugging Record-Triggered Flows
+- Custom Notifications
+- Platform Events
+- Scheduled Paths
+
+SOQL은 select문만 들어가있다
+
+dml
+
+- delete(soft delete)
+- undelete
+- upsert(insert+update)
+- merge
+
+### The Save Order of Execution
+
+save 할때 id 만들어진다. 롤백 x
+
+db의 프로시저와 비슷하다고 생각하면 된다
+
+Assignment010_New_Course_Attendee에서 Contact id
+
+<aside>
+💡 before save(fast field updates) - update only field(not screen etc)
+
+</aside>
+
+<aside>
+💡 after save(actions and related records) - update pretty much everything
+
+</aside>
+
+### $record
+
+지금 집어넣으려는 레코드 값을 모두 가져올 수 있다
+
+별도로 쿼리 안하고 상위의 10개 값을 가져올 수 있다
+
+### $record__prior
+
+과거 값을 비교해서 로직짤때 사용
+
+developer log console 설정—>change log level→Add/Change→workflow(set level)
+
+<aside>
+💡 developer console 하단  logs에 레코드 클릭하면 로그 쭈르륵 뜬다
+
+</aside>
+
+### platform events
+
+큐에 저장되있다가 요청이 오면 subscribe 같은곳에서 사용?해서 안전하다 
+
+[카프카](https://www.redhat.com/ko/topics/integration/what-is-apache-kafka)라는 오픈소스 이용해서 사용
+
+로그 만들때 좋다← 트랜잭션과 분리하여 사용가능
+
+soap 방식으로 out bound message
+
+### scheduled paths
+
+일정시간이 지난 다음에 도는 형식
+
+# L9 Automating with Process Builder and Workflow
+
+- process builder
+- workflow
+- history
+    
+    workflow→ lightning process → process builder
+    
+
+### workflow
+
+비즈니스 업무 규칙을 하나하나 만들어야함
+
+누가 먼저 발생할지 어떻게 발생할지 제어 못함
+
+룰 베이스에 대한 사항을 붙여서 계산해야함
+
+### vs.
+
+### lightning process
+
+하나에서 여러개를 기준값을 달리해서 관리할 수 있다
+
+하나의 오브젝트에 프로세스를 다르게해서 관리가능(하나로 최대한 로직을 다 관리)
+
+할 수 있는 일도 워크 플로우보다 많다
+
+레거시시스템과 연동이 많은 부분은 트리거를 써서 에펙스로 프로그램 따와야
+
+설정으로 가능한 부분은 선언적으로 
+
+```flow
+NOT(ISBLANK( Course_Description__c )) &&//null 이 아니어야
+NOT(ISBLANK( Duration__c )) &&
+NOT(ISPICKVAL( Status__c , "Pending Approval")) &&// pending approval이 아니어야
+NOT(ISPICKVAL( Status__c , "Active"))
+```
+
+# L10 Automating with Approvals
+
+<index>
+
+- Defining Approval Processes
+- Options for Approving Records
+
+### Approval Processes
+
+single or muilti-step processes that require end -user authorization for record promotion
+
+- Initial Submission Actions
+- Step Definition
+- Final Actions
+- Final Approval Actions
+- Recall Actions
+
+### comparison
+
+| workflow and Process Builder | Approval Processes |
+| --- | --- |
+| record save | clicks “submit for Approval” or autosubmitted by a Process or a Flow |
+| supports multiple criteria nodes that each have a set of actions | criteria(entry, step), actions(step, initial, rejection and approval) |
+
+# L11 Save Order of Execution
+
+# L12 Flow Best Practices
+
+12-3
+
+12-4하기
+
+# L13 Deploying Your App
+
+샌드박스에는 메타데이터만 올라간다
+
+[https://test.salesforce.com/](https://test.salesforce.com/)
+
+샌드박스링크
+
+admin@dex403.20220117i2m11.com.dev
+
+change set말고 배포할수있는 다른방법→
+
+salesforce dx
