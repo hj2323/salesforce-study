@@ -1,0 +1,1405 @@
+✔️ Organazation = Org
+
+1.Which of these is not a method for controlling record-level access? 
+
+A. Organization-Wide Defaults
+B. Role Hierarchy
+**C. Profiles**
+D. Sharing Rules
+
+[https://vceguide.com/which-of-these-is-not-a-method-for-controlling-record-level-access/](https://vceguide.com/which-of-these-is-not-a-method-for-controlling-record-level-access/)
+
+2.Which **tool** would you use for the following **use case**?
+When an opportunity closes, automatically close all activities related to that opportunity and create a renewal opportunity.
+
+**A. Process Builder**
+B. Visual Workflow
+C. Workflow
+D. Approvals
+
+![스크린샷 2022-01-26 오전 10.18.57.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38f91aea-7dde-4c72-8af6-41dfd9c0db4d/스크린샷_2022-01-26_오전_10.18.57.png)
+
+[https://developer.salesforce.com/forums/?id=906F0000000fzQvIAI](https://developer.salesforce.com/forums/?id=906F0000000fzQvIAI)
+
+3.You can configure access to data at all of the following levels, except: 
+
+A. Organization
+B. Objects
+**C. Page Layouts**
+D. Records
+
+[https://trailhead.salesforce.com/ko/content/learn/modules/data_security/data_security_overview](https://trailhead.salesforce.com/ko/content/learn/modules/data_security/data_security_overview)
+
+4.Which tool would you use for the following use case?
+As an account's expiration approaches, send recurring email notifications to the owner
+(2 weeks before, 1 week before, 3 days before, and 1 day before).
+
+A. Process Builder
+B. Visual Workflow
+**C. Workflow**
+D. Approvals
+
+![스크린샷 2022-01-26 오전 10.19.41.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb735f87-40d0-484f-a993-97aeabfb0c81/스크린샷_2022-01-26_오전_10.19.41.png)
+
+[https://developer.salesforce.com/forums/?id=906F0000000fzQvIAI](https://developer.salesforce.com/forums/?id=906F0000000fzQvIAI)
+
+5.Which tool would you use for the following use case?
+
+When an opportunity has a discount of more than 40%, notify the CEO via email and request sign-off. Provide a way for the CEO to leave comments.
+
+A. Process Builder
+
+B. Visual Workflow
+
+C. Workflow
+
+**D. Approvals**
+
+[https://www.forcetalks.com/blog/which-salesforce-automation-tool-would-you-use-for-the-following-use-case/](https://www.forcetalks.com/blog/which-salesforce-automation-tool-would-you-use-for-the-following-use-case/)(2, 4번도 적용)
+
+6. How can you control **object level access**? Pick 2.
+
+**A. Profiles**
+
+**B. Permission Sets**
+
+C. Roles
+
+D. Groups
+
+E. OWD
+
+[https://trailhead.salesforce.com/ko/content/learn/modules/data_security/data_security_objects](https://trailhead.salesforce.com/ko/content/learn/modules/data_security/data_security_objects)
+
+7.Which tool would you use for the following use case?
+
+Launch a troubleshooting wizard from a button, at the end of which a knowledge article is created if it'd be helpful to other users.
+
+A. Process Builder
+
+**B. Visual Workflow**
+
+C. Workflow
+
+D. Approvals
+
+[https://www.forcetalks.com/blog/which-salesforce-automation-tool-would-you-use-for-the-following-use-case/](https://www.forcetalks.com/blog/which-salesforce-automation-tool-would-you-use-for-the-following-use-case/)(2, 4번도 적용)
+
+- visual workflow
+    
+    you may also have heard the term *Visual Workflow*. That’s a retired product name for designing, managing, and running flows. Visual Workflow has been superseded by Salesforce Flow. Salesforce Flow is the product that encompasses building, managing, and running flows and processes.
+    
+
+8.What are the 4 Types of Publisher Actions?(chatter)
+
+**A. Update - update records/ Create - create a record/ Log a Call - log a call and it is recorded as a task/ Custom - requires visual force page**
+
+B. Developer/Developer Pro/Partial Copy/Full Sandb
+
+C. You need to setup workflows and triggers for the external data.
+
+D. Validation rules/Assignment rules/Auto-response rules/Workflow rules (with immediate actions)/ Escalation rules
+
+[https://help.salesforce.com/s/articleView?id=sf.collab_admin_publisher_actions.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.collab_admin_publisher_actions.htm&type=5)
+
+9.What are the 3 types of access in an org?
+
+**object/record/Field**
+
+![스크린샷 2022-01-26 오전 10.30.44.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf23cbe0-8288-4976-a626-d5b2267f61d4/스크린샷_2022-01-26_오전_10.30.44.png)
+
+10.Universal Container's app builder needs to display an account's rating on all contacts related to that account.Which formula is valid in a text formula field on the contact to display the appropriate value?
+
+Choose 2 answers.
+
+A. CASE(Account.Rating, Hot, Hot, Warm, Warm, Cold, Cold, Not Rated)
+
+**B. CASE(Account.Rating, "Hot", "Hot", "Warm", "Warm", "Cold", "Cold", "Not Rated")**
+
+C. Account.Rating
+
+**D. Text(Account.Rating)**
+
+11.You can **secure data at the organization level,** using all of these methods, except:
+
+A. Limit Login IP addresses
+
+B. Limit Login Hours
+
+C. Set password policies
+
+**D. Use hardware token**
+
+[https://trailhead.salesforce.com/ko/content/learn/projects/protect-your-data-in-salesforce](https://trailhead.salesforce.com/ko/content/learn/projects/protect-your-data-in-salesforce)(동영상 자세한 설명)
+
+12.Where can a Standard Lightning Component be placed in the Lightning App Builder tool?
+
+Choose one answer.
+
+**A. Canvas**
+
+B. Console Layout
+
+C. [Mini Page Layout](https://help.salesforce.com/s/articleView?id=sf.console_definelayouts.htm&type=5)
+
+D. [Mobile Card](https://help.salesforce.com/s/articleView?id=sf.layouts_customizing_related_content.htm&language=en_US&release=236.5.0&type=5)
+
+[https://trailhead.salesforce.com/en/content/learn/modules/lightning_app_builder/lightning_app_builder_intro](https://trailhead.salesforce.com/en/content/learn/modules/lightning_app_builder/lightning_app_builder_intro)
+
+13.Which of these statements is true for **Lightning Connect**?
+
+A. No external data is imported into your Salesforce org.
+
+B. External data is read in real time when you request it
+
+C. It can be used with any data source that supports OData 2.0.
+
+**D. All of the above**.
+
+[https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_connector_top.htm](https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_connector_top.htm)
+
+📌14.Universal Containers needs to set the record type for a converted lead's Account, Contact, and
+
+Opportunity based on the user who is converting the lead. How can this be accomplished?
+
+Choose one answer.
+
+**A. Set the default record types for each Profile for Account, Contact, and Opportunity to the desired**
+
+record type for converted records.
+
+B. Set the default record types for each Role for Account, Contact, and Opportunity to the desired
+
+record type for converted records.
+
+C. Set the master record types for each Profile for Account, Contact, and Opportunity to the desired
+
+record type for converted records.
+
+D. Set the master record types for each Role for Account, Contact, and Opportunity to the desired
+
+record type for converted records
+
+[https://help.salesforce.com/s/articleView?id=000340199&type=1](https://help.salesforce.com/s/articleView?id=000340199&type=1)
+
+15.Universal Containers needs to create a roll-up summary field on a custom object that counts the number of related records on another custom object.
+
+What type of field must exist before the roll-up summary can be created, and where should it be located?
+
+Choose one answer.
+
+A. A lookup relationship field on the parent object.
+
+B. A lookup relationship field on the child object.
+
+C. A master-detail relationship field on the parent object.
+
+**D. A master-detail relationship field on the child object.**
+
+> Create roll-up summary fields on:
+> 
+
+> Any custom object that is on the master side of a master-detail relationship
+> 
+
+> [https://help.salesforce.com/s/articleView?id=sf.fields_about_roll_up_summary_fields.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.fields_about_roll_up_summary_fields.htm&type=5)
+> 
+
+> 답이 C같아요  ⇒ [https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A8oFVSAZ](https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A8oFVSAZ) 트레일헤드 참조 해보니 D같습니다
+> 
+
+16.Which of these is NOT an appropriate use case for **Lightning Connect**?(13번과 유사)
+
+A. You want to integrate external data without writing custom code.
+
+B. The external data is changing frequently.
+
+**C. You need to setup workflows and triggers for the external data.**
+
+D. You only need real-time access to a small fraction of the external data.
+
+[https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_connector_top.htm](https://developer.salesforce.com/docs/atlas.en-us.200.0.apexcode.meta/apexcode/apex_connector_top.htm)
+
+- Salesforce
+    
+    조직 에 복사하고 싶지 않은 데이터가 많습니다.
+    
+- 한 번에 소량의 데이터가 필요합니다.
+- 최신 데이터에 대한 실시간 액세스를 원합니다.
+
+17.Universal Containers **has limited in-house development resources**, but would like to support online payment processing for its products.
+
+What is the recommended solution to meet this requirement?
+
+Choose one answer.
+
+A. Configure pricebooks, products, and payment schedules to enable this capability.
+
+B. Work with developers to develop custom code for payment processing.
+
+C. Configure Outbound Messaging to send a message to an external Payment Gateway.
+
+**D. Install an AppExchange product to provide Payment Gateway processing.→ 리소스가 제한되있지만 기능을 추가하고 싶을때 미리 만들어져있는 기능을 appexchange에서 가져와서 쓴다**
+
+18.In which of these scenarios is ETL a better choice than Lightning Connect?
+
+A. You need to create or update the external data in addition to reading it.
+
+B. You need the external data to follow the sharing rules defined for your organization.
+
+C. You wan to generate reports and charts from the external data.
+
+**D. All of the above**
+
+> In all data operations, an ETL **(extract, transform, and load)** is how data moves from one place to another.
+> 
+
+[https://help.salesforce.com/s/articleView?id=sf.platform_connect_about.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.platform_connect_about.htm&type=5)
+
+19.Which of these is NOT true about **external objects**?
+
+A. They integrate with Salesforce APIs, Apex, Visualforce, and Chatter.
+
+B. They can be related to other objects.
+
+**C. You can use them in formula fields.**
+
+D. They are automatically viewable in the Salesforce1 mobile app.
+
+[https://help.salesforce.com/s/articleView?id=sf.external_object_define.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.external_object_define.htm&type=5)
+
+[https://help.salesforce.com/s/articleView?id=sf.external_object_relationships.htm&language=ko&release=236.5.0&type=5](https://help.salesforce.com/s/articleView?id=sf.external_object_relationships.htm&language=ko&release=236.5.0&type=5)
+
+20.Users can get Salesforce in all of the following ways except:
+
+A. As a mobile browser app that runs in supported browsers.
+
+B. As a downloadable app from Google Play.
+
+**C. As a downloadable app from www.salesforce.com→ 다운로드 하지 않아도 된다.**
+
+D. As a downloadable app from the Apple App Store.
+
+21.The Salesforce user interface includes all of these key elements except:
+
+A. Feed
+
+B. Action Bar
+
+C. Navigation menu
+
+**D. Widgets page**
+
+E. Record view
+
+22.When you **specify a single running user of a dashboard**, that user:
+
+A. Is the only one who can post a snapshot of the dashboard to Chatter.
+
+**B. Determines which data is displayed on the dashboard, due to the user's security settings.**
+
+C. Must be the same person who created the report.
+
+D. Must have the 'View All Data' permission.
+
+[https://help.salesforce.com/s/articleView?id=sf.dashboards_select_running_user.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.dashboards_select_running_user.htm&type=5)
+
+- 해석
+    
+    22.**Dashboard*의 실행 중인 단일 사용자를 지정하는 경우 해당 사용자는 다음과 같습니다.
+    
+    A. 대시보드의 스냅샷을 Chatter에 게시할 수 있는 유일한 사용자입니다.
+    
+    - *B. 사용자의 보안 설정으로 인해 대시보드에 표시되는 데이터를 결정합니다.**
+    
+    C. 보고서를 작성한 사람과 동일해야 합니다.
+    
+    D. '모든 데이터 보기' 권한이 있어야 합니다.
+    
+
+23.To create a custom object from the Schema Builder:
+
+A. From the Objects tab, select New>Object.
+
+**B. From the Elements tab, drag Object onto the canvas.**
+
+C. Right-click in the canvas and select 'New Object'.
+
+![스크린샷 2022-01-26 오후 1.03.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c260f59a-45fe-4a27-9d95-f1dcb0d7932e/스크린샷_2022-01-26_오후_1.03.20.png)
+
+24.All of the following are advantages of the Schema Builder except: 
+
+A. All object and field relationship details are available from one screen.  
+
+**B. You can view fields and relationships for custom, but not standard objects.(correct answer: you can view standard objects, but not fields and relationships for custom.)**
+
+C. Schema Builder shows details like field values, required fields, and how objects are related.
+
+D. It's easy to build objects and fields directly from the Schema Builder, allowing you to visualize and change relationships with ease.
+
+- 다음 중 Schema Builder의 장점이 아닌것은? (해석)
+    
+    A. 모든 객체 및 필드 관계 세부 정보를 한 화면에서 확인할 수 있습니다.
+    
+    B. 사용자 지정에 대한 필드 및 관계를 볼 수 있지만 표준 개체는 볼 수 없습니다.
+    
+    C. Schema Builder는 필드 값, 필수 필드 및 개체 관련 방식과 같은 세부 정보를 보여 줍니다.
+    
+    D. Schema Builder에서 직접 개체와 필드를 쉽게 작성할 수 있으므로 쉽게 관계를 시각화하고 변경할 수 있습니다.
+    
+
+25.You can control access to report folders based on
+
+**A. Permissions, roles, and public groups.**
+
+B. Public groups, organization-wide defaults, and IP restrictions.
+
+C. Password settings, permissions, and user settings.
+
+D. All of the above
+
+[https://help.salesforce.com/s/articleView?id=sf.analytics_folder_access.htm&language=en_US&release=236.5.0&type=5](https://help.salesforce.com/s/articleView?id=sf.analytics_folder_access.htm&language=en_US&release=236.5.0&type=5)
+
+26.When a user requests a report, what should you do?
+
+A. Ask follow-up questions, to get all the requirements.
+
+B. Document the user's requirements.
+
+C. Map the users requirements to report criteria.
+
+**D. All of the above.**
+
+27.Salesforce processes rules in what order?
+
+**Validation rules**
+
+**Assignment rules**
+
+**Auto-response rules**
+
+**Workflow rules (with immediate actions)**
+
+**Escalation rules**
+
+[https://developer.salesforce.com/forums/?id=906F00000008kZUIAY](https://developer.salesforce.com/forums/?id=906F00000008kZUIAY)
+
+(VAAWE)
+
+28.What is true about a **master detail relationship**?
+
+**A. You can't convert it if there is a roll-up summary field.**
+
+**B. Converting a look-up to master detail changes the OWD to Controlled by Parent.**
+
+C. A look-up can be converted to a master detail if there are existing records with null values.
+
+**D. SF displays a waiting page after you request to change a master detail to a look-up or vice versa.**
+
+![스크린샷 2022-01-26 오후 1.22.19.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/252934d4-e507-4ab2-9afc-b7685169ec6a/스크린샷_2022-01-26_오후_1.22.19.png)
+
+29.What happens when you convert a picklist to a multi-select picklist?
+
+**A. Values are retained.**
+
+**B. Values not in the picklist are deleted from existing records when the data type changes.**
+
+C. Data is lost.’
+
+D. You can't convert to a multi-select picklist.
+
+[https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A7ybrSAB](https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A7ybrSAB)
+
+[https://trailblazer.salesforce.com/issues_view?id=a1p3A0000008ve0QAA](https://trailblazer.salesforce.com/issues_view?id=a1p3A0000008ve0QAA)(D)
+
+30.To Leverage flows you need to: (flow를 활용하려면 다음이 필요하다)
+
+A. Have Run Flows permission enabled
+
+B. Have access to the Visualforce page the flow uses.
+
+C. The flow must be active.
+
+**D. All of the above.**
+
+???
+
+31. You can convert a Text Area(Long) to Email, Phone, Text, Text Area or URL without data loss.
+
+**A.True**
+
+B.False
+
+[https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&type=5)
+
+> Only convert custom fields that there’s no data for or you risk losing your data. Changing the data type of an existing custom field can cause data loss in these situations:
+> 
+
+> Changing from Text Area (Long) to any type except Email, Phone, Text, Text Area, or URL
+> 
+> 
+> 
+
+When you convert a long text area field to an Email, Phone, Text, Text Area, or URL type field, the record data is truncated to the first 255 characters of the field.(이 부분에 따라서 B가 정답이지 않을까 생각합니다)
+
+32.You cannot change auto number to text and vice versa and not loose your data.(31번과 비슷)
+
+A.True
+
+**B.False**
+
+> If you convert an **auto-number field** into a text field, the data in that field remains unchanged. Also, you can safely convert a text custom field into an auto-number field without losing your data. **Converting an auto-number field into any other data type results in data loss**. Auto-number fields can contain a maximum of 30 characters. Before converting a text custom field into an auto-number field, change any records that contain more than 30 characters in that field.
+> 
+
+33.If data is lost, any list view based on the custom field will be deleted, and **assignment and escalation rules** may be affected.(27번과 연계해서 공부하기)
+
+**A. True**
+
+B. False
+
+- 해석
+    
+    데이터가 손실되면 사용자 정의 필드를 기반으로 하는 목록 보기가 삭제되고 할당 및 에스컬레이션 규칙에 영향을 줄 수 있습니다.
+    
+
+[https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&type=5)
+
+“changing field types”
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/528a2ca1-2f25-4012-93ee-6ec5bb678ad2/Untitled.png)
+
+(헬프 원문 그대로)
+
+34.What type of relationships can you create on External Objects?
+
+**A. Lookup**
+
+**B. External lookup**
+
+**C. Indirect lookup**
+
+D. Direct Lookup
+
+E. All of the above
+
+![스크린샷 2022-01-26 오후 1.43.27.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43458dd9-1457-4895-a7d9-1155ab608fd0/스크린샷_2022-01-26_오후_1.43.27.png)
+
+35.What is true about **external lookup relationship fields**?(난이도 **상**‼️) 
+
+A. Lookup filters are available for external lookup relationship fields.
+
+**B. Cascade-delete isn't available for external object relationships.**
+
+**C. Only objects that have a custom field with the External ID and Unique attributes are available as parent objects in indirect lookup relationships.**
+
+D. All of the above
+
+[https://help.salesforce.com/s/articleView?id=sf.fields_lookup_limitations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.fields_lookup_limitations.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dadf0225-10bb-4a26-a7d1-33997da68790/Untitled.png)
+
+[https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d1fd51c-af79-4a6c-b3b4-2a35402ccebd/Untitled.png)
+
+[https://help.salesforce.com/s/articleView?id=sf.external_object_indirect_lookup_relationships.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.external_object_indirect_lookup_relationships.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4028c2f4-5a1f-4096-984d-7f80426505bb/Untitled.png)
+
+(헬프 3개 참조해야함)
+
+36.What is true about **Junction objects**?
+
+A. Junction object records are deleted when either associated master record is deleted and placed in the Recycle Bin.
+
+B. If both associated master records are deleted, the junction object record is deleted permanently and can't be restored.
+
+C. The first master-detail relationship you create on your junction object becomes the primary relationship.
+
+**D. All of the above.**
+
+[https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c4f6745-5d8e-43f3-8264-ba111078b591/Untitled.png)
+
+[https://trailhead.salesforce.com/ko/users/rebeccaaichholzer/trailmixes/trailhead-tuesday-junction-objects-04052021](https://trailhead.salesforce.com/ko/users/rebeccaaichholzer/trailmixes/trailhead-tuesday-junction-objects-04052021)
+
+![스크린샷 2022-01-26 오후 1.59.58.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abd4c3ac-ddf6-4328-ac31-c2cf9154684f/스크린샷_2022-01-26_오후_1.59.58.png)
+
+37.You can have multiple records with the same external ID.
+
+**True - It is not recommended, as it will defeat the purpose of the external id.**
+
+[https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-external-id-and-unique-id-in-Salesforce/](https://www.forcetalks.com/salesforce-topic/what-is-the-difference-between-external-id-and-unique-id-in-Salesforce/)
+
+38.**Indirect lookup relationship fields** can be created on external objects only.
+
+**TRUE**
+
+[https://help.salesforce.com/s/articleView?id=sf.external_object_indirect_lookup_relationships.htm&language=en_US&r=https%3A%2F%2Fwww.google.com%2F&type=5](https://help.salesforce.com/s/articleView?id=sf.external_object_indirect_lookup_relationships.htm&language=en_US&r=https%3A%2F%2Fwww.google.com%2F&type=5)
+
+39.Each workflow rule applies to a single object
+
+**True**
+
+False
+
+[https://help.salesforce.com/s/articleView?id=sf.workflow_rules_considerations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.workflow_rules_considerations.htm&type=5)
+
+40.What order does SF process rules?(27번과 유사)
+
+A. Validation rules, assignment rules, workflow rules, auto-response rules, escalation rules.
+
+**B. Validation rules, assignment rules, auto-response rules, workflow rules, escalation rules.**
+
+C. Escalation rules, Validation rules, assignment rules, auto-response rules, workflow rules.
+
+D. Auto-response rules, Validation rules, assignment rules, workflow rules, escalation rules.
+
+41.What is true for **all custom and some standard objects**?
+
+A. you can create workflow and approval actions where a change to a detail record updates a field on the related master record.
+
+B. **Cross-object field updates** work for custom-to-custom master-detail relationships, custom-to-standard master-detail relationships.
+
+C. **Cross-object field updates** work for a few standard-to-standard master-detail relationships.
+
+**D. All of the Above.**
+
+[https://help.salesforce.com/s/articleView?id=sf.workflow_cross_object_field_updates.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.workflow_cross_object_field_updates.htm&type=5)
+
+42.What is true about **Workflow rules**?
+
+**A. Saving or creating records can trigger more than one rule.**
+
+**B. Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization.**
+
+C. Workflow rules trigger automatically and are visible to the user.(invisible)
+
+**D. Workflow rules can't be triggered by campaign statistic fields, including individual campaign statistics and campaign hierarchy statistics.**
+
+[https://help.salesforce.com/s/articleView?id=sf.workflow_rules_considerations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.workflow_rules_considerations.htm&type=5)
+
+43.Workflow rules on custom objects are NOT automatically deleted if the custom object is deleted
+
+**False**
+
+(Workflow rules on custom objects are automatically deleted if the custom object is deleted.)
+
+44.What is true about **validation rules**?
+
+**A. When one validation rule fails, Salesforce continues to check any additional validation rules on that field or any other field on the page and displays all appropriate error messages at once.**
+
+B. Campaign hierarchies follow validation rules.(Campaign hierarchies ignore validation rules.)
+
+**C. Validation rules are only enforced during lead conversion if 'validation and triggers for lead conversion' are enabled in your organization.**
+
+**D. Salesforce runs validation rules before creating records submitted via Web-to-Lead and Web-to-Case, and only creates records that have valid values.**
+
+- 해석
+    
+    유효성 검사 규칙에 대한 설명으로 옳은 것은?
+    
+    A. 하나의 유효성 검사 규칙이 실패하면 Salesforce는 해당 필드 또는 페이지의 다른 필드에 대한 추가 유효성 검사 규칙을 계속 확인하고 해당하는 모든 오류 메시지를 한 번에 표시합니다.
+    
+    B. 캠페인 계층은 검증 규칙을 따릅니다.
+    
+    C. 유효화 규칙은 조직에서 '리드 변환에 대한 유효성 검사 및 트리거'가 활성화된 경우에만 리드 변환 중에 시행됩니다.
+    
+    D. Salesforce는 Web-to-Lead 및 Web-to-Case를 통해 제출된 레코드를 만들기 전에 검증 규칙을 실행하고 유효한 값을 가진 레코드만 만듭니다.
+    
+
+[https://help.salesforce.com/s/articleView?id=sf.fields_validation_considerations.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.fields_validation_considerations.htm&type=5)
+
+45.You should use a **Validation rule** if:
+
+A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.
+
+**B. You're close to the maximum number of lookup filters allowed.**
+
+C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.
+
+**D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.**
+
+- 해석
+    
+    다음과 같은 경우 유효성 검사 규칙을 사용해야 합니다.
+    
+    A. 룩업 검색 대화 상자에서 사용 가능한 옵션 수를 제한하여 사용자 효율성을 개선하려고 합니다.
+    
+    B. 허용된 최대 조회 필터 수에 근접했습니다.
+    
+    C. 사용자가 수동으로 설정한 룩업 검색 대화 상자에서 필터를 자동화하여 사용자 효율성을 향상시키려고 합니다.
+    
+    D. 공식을 사용해야 하는 복잡한 비즈니스 규칙을 구현해야 합니다. 수식은 원본 오브젝트의 상위 항목에 있는 필드와 같이 기본 필터 기준이 참조할 수 없는 필드를 참조할 수 있습니다. 수식은 함수를 사용할 수도 있습니다. 예를 들어, 레코드 생성 시에만 규칙을 적용해야 하는 경우에는 ISNEW를 사용하고, 필드가 변경될 때 규칙을 적용해야 하는 경우에는 ISCHANGED를 사용합니다.
+    
+
+46.What are the limitations of workflow rules?
+
+A. You can't create email alerts for workflow rules on activities.
+
+B. You can't package workflow rules with time triggers.
+
+C. You can't create outbound messages for workflow rules on junction objects.
+
+**D. All of the above.**
+
+[https://help.salesforce.com/s/articleView?id=sf.workflow_limits.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.workflow_limits.htm&type=5)
+
+47.You should use a **lookup filter** if:(45번과 비교해서 보기)
+
+**A. You want to improve user efficiency by limiting the number of available options in a lookup search dialog.**
+
+B. You're close to the maximum number of lookup filters allowed.
+
+**C. You want to improve user efficiency by automating filters on lookup search dialogs that your users manually set.**
+
+D. You must implement a complex business rule that requires you to use a formula. Formulas can reference fields that basic filter criteria can't reference, such as fields on the parent of the source object. Formulas can also use functions. For example, use ISNEW if the rule should only apply on record creation, or ISCHANGED if the rule should apply when a field changes.
+
+[https://help.salesforce.com/s/articleView?id=sf.fields_lookup_filters.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.fields_lookup_filters.htm&type=5)
+
+48.What are the 4 types of Sandboxes?(49~51)
+
+**Developer /Developer Pro /Partial Copy /Full Sandbox**
+
+![스크린샷 2022-01-26 오후 2.31.21.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb133026-a309-47ff-8353-86da17a70d2f/스크린샷_2022-01-26_오후_2.31.21.png)
+
+49.What type of sandbox should you use for **full performance and load testing**?
+
+A. Developer
+
+B. Partial Copy
+
+**C. Full Sandbox**
+
+D. Developer Pro
+
+50.What sandbox should you use for **data load and integration testing**?
+
+A. Developer
+
+B. Partial Copy
+
+C. Full Sandbox
+
+**D. Developer Pro**
+
+51.What sandbox is used for **virtually any development, testing, or training purpose**?
+
+A. Developer
+
+**B. Partial Copy**
+
+C. Full Sandbox
+
+D. Developer Pro
+
+52.New and refreshed sandboxes have the default email deliverability setting System email only. What are the other options?
+
+**A. No access**
+
+**B. System email only**
+
+C. All access
+
+**D. All email**
+
+[https://help.salesforce.com/s/articleView?id=sf.data_sandbox_email_deliverability.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.data_sandbox_email_deliverability.htm&type=5)
+
+53.The sandbox copy engine creates an organization as part of each creation and refresh request. So, the organization ID of your sandbox changes each time your sandbox is refreshed.
+
+**True**
+
+[https://salesforce.stackexchange.com/questions/55861/refreshing-full-sandbox](https://salesforce.stackexchange.com/questions/55861/refreshing-full-sandbox)
+
+54.What happens to **user information when a sandbox is created**?
+
+**A. The sandbox name is appended to the username**
+
+**B. If the resulting username is not unique, a second modification is performed in which some characters and digits are prepended to the modified username**
+
+C. User email addresses are NOT modified in your sandbox so that production users don't receive automatically generated email messages from the sandbox.(When you create or refresh a sandbox, user email addresses are modified so that production users don’t receive automatically generated email messages from the sandbox.)
+
+D. All of the above
+
+[https://help.salesforce.com/s/articleView?id=sf.data_sandbox_implementation_tips.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.data_sandbox_implementation_tips.htm&type=5)
+
+55.A manager want to embed charts into his accounts object in 1 page layout. How many charts can you embed for him?
+
+A. 3
+
+**B. 2**
+
+C. 4
+
+D. 1
+
+[https://help.salesforce.com/s/articleView?id=sf.reports_embed_limits.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.reports_embed_limits.htm&type=5)
+
+56.What are the 2 types of packages?
+
+**A. Unmanaged**
+
+B. Named
+
+**C. Managed**
+
+D. Upgraded
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67b82d7a-03fe-4f29-ac00-2a998e74d6f0/Untitled.png)
+
+57.When should you refresh a sandbox?
+
+A. 3 Hours before you need it.
+
+**B. When you are finished with the current sandbox.**
+
+C. 10 Days after an implementation.
+
+D. Anytime.
+
+58.What is true about **dashboard filters**?
+
+A. Filters can be added to dashboards that contain Visualforce components.(You can’t add filters to dashboards that contain Visualforce or s-control components.)
+
+**B. It's not possible to filter on bucket fields.**
+
+**C. Filters aren't applied when you schedule or email a dashboard.**
+
+**D. You can't filter data on a joined report in dashboard view or add a filter to a dashboard that only has joined reports.**
+
+[https://help.salesforce.com/s/articleView?id=sf.dashboard_filters_overview.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.dashboard_filters_overview.htm&type=5)
+
+59.**Why** would you **use an unmanaged package**?
+
+**Unmanaged packages are typically used to distribute open-source projects or application templates to provide developers with the basic building blocks for an application.**
+
+[https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5)
+
+60.What are **use cases for Validation Rules**?
+
+A. Enforce conditionally required fields
+
+B. Enforce proper data format
+
+C. Enforce consistency
+
+D. Prevent data loss
+
+**E. All of the above**
+
+[https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5)
+
+61.What is true about unmanaged packages?
+
+A. Once the components are installed from an unmanaged package, the components can be edited in the organization they are installed in.
+
+B. The developer who created and uploaded the unmanaged package has no control over the installed components, and can't change or upgrade them.
+
+C. Unmanaged packages should not be used to migrate components from a sandbox to production organization. Instead, use Change Sets.
+
+**D. All of the above**
+
+[https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5) 
+
+헬프 문단 전체를 긁어온 문제
+
+62.What is true about change sets?
+
+**A. Change sets can only contain modifications you can make through the Setup menu.**
+
+B. They contain data such as records.
+
+**C. Change sets can only be sent between organizations that are affiliated with a production organization.**
+
+D. All of the above
+
+[https://help.salesforce.com/s/articleView?id=sf.changesets.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.changesets.htm&type=5)
+
+63.What external relationship requires a salesforce ID in the external data?
+
+A. External Lookup
+
+B. Indirect Lookup
+
+**C. Lookup**
+
+D. Master Detail
+
+[https://help.salesforce.com/s/articleView?id=sf.external_object_relationships.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.external_object_relationships.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09b33b82-3eed-4368-a7d1-523de3fc95e7/Untitled.png)
+
+64.For an external object relationship you can create a lookup relationship. What type of object(s) can be the parent?
+
+A. External
+
+**B. Standard or Custom(B. For a lookup you can only have standard or custom objects as the parent, but can have all 3 as the child.)** 
+
+C. Standard or External
+
+D. Custom
+
+(63번 문제와 동일)
+
+65.For an external object relationship you can create an external lookup relationship. What type of object(s) can be the parent?
+
+**A. External(A. For an external lookup you can only have an external object as the parent, but can have all 3 as the child. Does not require a salesforce ID.)**
+
+B. Standard or Custom
+
+C. Standard or External
+
+D. Custom
+
+(63번 문제와 동일)
+
+66.What are the steps for creating a dynamic approval process?
+
+**A. Create (user) lookup fields on the object being approved, Create a custom object as an approval matrix, Populate the approval matrix record, Create Apex code to populate the user fields from the approval matrix record, Create or update an approval process to utilize the new lookup fields.**
+
+B. Create standard object as an approval matrix.
+
+C. Create an approval process.
+
+D. All of the above.
+
+[https://salesforce.stackexchange.com/questions/20908/difference-between-static-and-dynamic-approval-processes/58680](https://salesforce.stackexchange.com/questions/20908/difference-between-static-and-dynamic-approval-processes/58680)
+
+67.For an external object relationship you can create an indirect lookup relationship. What type of object(s) can be the parent?
+
+A. External
+
+**B. Standard or Custom(B. For an indirect lookup you can have standard or custom objects as the parent, but can only have an external object as the child. Does not require a salesforce ID.)**
+
+C. Standard or External
+
+D. Custom
+
+(63번 문제와 동일)
+
+68.Why would you use an unmanaged package?
+
+**Unmanaged packages are typically used to distribute open-source projects or application templates to provide developers with the basic building blocks for an application.**
+
+[https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.sharing_apps.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67b82d7a-03fe-4f29-ac00-2a998e74d6f0/Untitled.png)
+
+69.A Lightning component is a compact, configurable, and reusable element that you can drag and drop onto a Lightning Page in the Lightning App Builder.
+
+**True**
+
+False
+
+[https://trailhead.salesforce.com/ko/content/learn/modules/lightning_app_builder/lightning_app_builder_intro](https://trailhead.salesforce.com/ko/content/learn/modules/lightning_app_builder/lightning_app_builder_intro)
+
+70.What are the standard Lightning components?
+
+A. Filter List
+
+B. Recent Items
+
+C. Report Chart
+
+D. Rich Text
+
+E. Visualforce Page
+
+**F. All of the above**
+
+[https://help.salesforce.com/s/articleView?id=sf.lightning_page_components.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.lightning_page_components.htm&type=5) (컴포넌트들이 너무 많음..)
+
+71.A lightning Page is:
+
+A. A compact, configurable, and reusable element.
+
+**B. A custom layout for creating pages in Salesforce.**
+
+C. The new name for a SF page layout.
+
+D. A page you can access via a customer community.
+
+[https://help.salesforce.com/s/articleView?id=sf.lightning_page_overview.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.lightning_page_overview.htm&type=5)
+
+(A에 관한 내용도 help에 존재하나 답은 아닌느낌)
+
+72.Actions on a Lightning Page allow you to:
+
+**A. Send email, create a task, and create or update records.**
+
+B. Send email and delete or clone records.
+
+C. Clone records, add users, and assign permissions.
+
+D. Send email, send outbound messages, and launch a flow.
+
+[https://developer.salesforce.com/forums/?id=9060G000000I2ZMQA0](https://developer.salesforce.com/forums/?id=9060G000000I2ZMQA0)
+
+73.Use Data Loader when:
+
+**A. You need to load 50,000 to five million records. If you need to load more than 5 million records, we recommend you work with a Salesforce partner or visit the AppExchange for a suitable partner product.**
+
+B. You don't need the import process to be automated.
+
+**C. You need to load into an object that is not supported by the Data Import Wizard.**
+
+**D. You want to schedule regular data loads, such as nightly imports**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95abb4cd-b5f2-43b9-9850-c05cb8732d75/Untitled.png)
+
+74.What objects are supported by the Import Wizard?
+
+A.Contacts
+
+B. Leads
+
+C. Accounts
+
+D. Custom objects
+
+E. Solutions
+
+**F. All of the above**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d21935cf-d43d-4f20-8ef3-96213d129ced/Untitled.png)
+
+object, including, accounts, contacts, leads, solutions, campaign members, person accounts
+
+75.You can export data from Salesforce using any of the following methods except:
+
+**A. Use the data Manager tool to manually request an export of all the data in your organization.**
+
+B. Use the data Export wizard within SF to export data manually or automatically.
+
+C. Use the data loader client application.
+
+D. Log a case with SF
+
+[https://shreysharma.com/data-export-data-management/](https://shreysharma.com/data-export-data-management/)  d는 확인 안됨
+
+76.What can you build with the Lightning App Builder
+
+A. At-aglance, dashboard-style apps.
+
+B. Apps optimized for a particular task.
+
+C. Simple, single-page apps with drill-down capability.
+
+**D. All of the above.**
+
+[https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_overview.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_overview.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e5f630a-47a7-4820-843a-428f19c78950/Untitled.png)
+
+77.Use the data import wizard when:
+
+**A.You need to load less than 50,000 records.**
+
+**B.The objects you need to import are supported by the wizard.**
+
+C. You want to schedule regular data loads, such as nightly imports.
+
+**D. You don't need the import process to be automated.**
+
+(73번 문제 참조)
+
+78.When scheduling automatic data exporting with the Data Export Wizard, you must specify all of the following except:
+
+A. Start and end dates
+
+B. Time of day
+
+**C. Number of attachments**
+
+D. Frequency, if your organization supports monthly exports
+
+데이터 내보내기 예약시 매주or 매월 간격으로 보낼 수 있음
+
+79.When using the Data Export Wizard to manually export data, you can only export data if:
+
+A. Your data doesn't include attachments, images, or documents.
+
+B. You've installed a client application to export the data.
+
+**C. Enough time has passed since your last export.**
+
+D. You are an Admin.
+
+[https://trailhead.salesforce.com/en/content/learn/modules/lex_implementation_data_management/lex_implementation_data_export](https://trailhead.salesforce.com/en/content/learn/modules/lex_implementation_data_management/lex_implementation_data_export)
+
+(c가 Export now 문단에 있어 정확한 답인지는 확인 불가)
+
+80.If any of the triggered workflow rules result in another field update that's also enabled for workflow rule re-evaluation, a domino effect occurs, and more workflow rules can be re-evaluated as a result of the newly-triggered field update.
+
+**True(T. This cascade of workflow rule re-evaluation and triggering can happen up to five times after the initial field update that started it.)**
+
+False
+
+[https://help.salesforce.com/s/articleView?id=sf.workflow_field_updates_reevalute_wf.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.workflow_field_updates_reevalute_wf.htm&type=5)
+
+81.Which of the following can you create safely in a production organization?
+
+A. Apex Classes
+
+B. Triggers
+
+C. Custom Apex Controllers for Visualforce Pages
+
+**D. Reports and Dashboards**
+
+82.Recursive triggers may cause your organization to exceed its limit for workflow time triggers per hour.
+
+**True**
+
+False
+
+- 해석
+    
+    재귀 트리거로 인해 조직이 시간당 워크플로우 시간 트리거 제한을 초과할 수 있습니다.
+    
+
+83.Which of the following are good ways to track changes in production?
+
+A. Diff the metadata
+
+B. Use a change log request form
+
+C. Check the setup audit trail every week
+
+**D. All of the above**
+
+84.When do you need to refresh a sandbox?
+
+A. 3 Hours before you need it.
+
+**B. When modification have been made to the production organization.**
+
+C. Anytime
+
+**D. When you are done making changes to it.**
+
+85.You have a team of developers who need logins to sandbox. What's the best way to give them access?
+
+**A. Create them as inactive users in production**
+
+B. Have them login as one of the users in production
+
+C. Create them as users in sandbox, then deactivate the same number of users in production
+
+D. Use Developer Edition to log into sandbox
+
+86.When is it advisable(바람직한) to use a full-copy sandbox?
+
+A. For training users on new features
+
+B. Staging before final deployment
+
+C. Performance and load testing
+
+**D. All of the above**
+
+[https://help.salesforce.com/s/articleView?id=sf.create_test_instance.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.create_test_instance.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6dbe5509-4cae-4a7f-9f1c-5240e0862163/Untitled.png)
+
+(A답변은 안나옴)
+
+87.Which of the following descriptions about the Lightning Components framework is true?
+
+A. It uses JavaScript on the client side and Apex on the server side.
+
+B. It uses events to communicate data between components.
+
+C. It uses a stateful client and stateless server architecture.
+
+**D. All of the above.**
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce27065d-379b-4bdc-8689-637640819092/Untitled.png)
+
+88.Ideally, who should be in charge of logging all changes in production?
+
+A. Product manager
+
+**B. Administrator**
+
+C. QA Engineer
+
+D. Developer
+
+89.You've developed some new functionality in production, but there are concurrent development projects in a developer sandbox. What's the best way to make sure the changes in production and projects in development are both merged?
+
+A. Simply refresh the developer sandbox
+
+B. Copy all of the sandbox metadata to a file system, then refresh the developer sandbox, and finally deploy all the metadata to the developer sandbox
+
+**C. Create a new sandbox, and then deploy from your developer sandbox to the new sandbox**
+
+D. None of the above
+
+90.How is the Lightning Component framework different from Visualforce?
+
+A. The framework can be used to build mobile apps only.
+
+**B. The framework is client-side centric, while Visualforce relies on server calls.**
+
+C. They are both useful in building components, but Visualforce has a simpler markup.
+
+D. None of the above.
+
+[https://salesforce.stackexchange.com/questions/111502/difference-between-visualforce-and-lightning-in-salesforce](https://salesforce.stackexchange.com/questions/111502/difference-between-visualforce-and-lightning-in-salesforce)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13ca5c34-25f4-499f-9973-81ec002dc820/Untitled.png)
+
+91.What is true regarding person accounts in Salesforce?
+
+**A. Person accounts do not have a 'Parent Account' field.**
+
+**B. Person accounts do not have the Account Hierarchy feature.**
+
+C. Person Accounts can be enabled in setup.
+
+D. Person accounts can have contacts.
+
+E. Leads cannot be converted to Person Accounts.
+
+[https://help.salesforce.com/s/articleView?id=sf.account_person_behavior.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.account_person_behavior.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/021f8828-edbb-4be5-a9ca-7ad8cda8f5c4/Untitled.png)
+
+92.Universal Containers are doing a deep analysis on their monthly sales data, and would like the salws revenue split as products sold per country. What would be the ideal report to address this need?
+
+A. Tabular
+
+B. Summar
+
+**C. Matric**
+
+D. Joined
+
+93.What can you build with the Lightning Components framework?
+
+A. A standalone app.
+
+B. Components for the Salesforce1 app.
+
+C. Custom components that override and extend the Salesforce1 app.
+
+**D. All of the above.**
+
+94.A custom app can include one or more custom tabs. What kind of custom tabs can be included in an application?
+
+A. Lightning Page Tab
+
+B. Visualforce Tab
+
+C. Custom Object Tab
+
+**D. All of the above**
+
+[https://help.salesforce.com/s/articleView?id=sf.dev_tabdef.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.dev_tabdef.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b764ef1-91cc-4ed4-88b5-89133204779c/Untitled.png)
+
+95.You are building a project mgmt app. According to the design given to you, a project must store info regarding the various functional modules under it. Each functional module must store info regarding responsibility assigned to each developer. Info about the responsibility must have info about the due date and status. What could be the most optimal model to achieve this?
+
+**A. Create a Project object then Modules as a child object. Add Tasks to Modules**
+
+B. Create a Project then add Tasks to it. Define Modules as a field on Task.
+
+C. Create Project, Module, Responsibility as parent, child and grandchild objects
+
+D. Create Project and Module objects then Responsibility as a junction object.
+
+96.Universal Containers is using SF to manage travel requests. They would like to enable managers to approve travel requests via email. What is true regarding email approval responses?
+
+**A. Approvers must the the 'API Enabled' system permission.**
+
+B. Approval Comments cannot be added in the email response.
+
+C. Approvers must click a link in the approval email
+
+D. If the request is rejected, the approver must add the rejection comments directly in SF.
+
+[https://help.salesforce.com/s/articleView?id=sf.approvals_email.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.approvals_email.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e42d660-d8d8-450f-b07a-8f47b9770e0a/Untitled.png)
+
+97.What is not a capability of the lead object?
+
+**A. Standard or Custom fields can be mapped to fields in the Account, Contact and Opportunity objects as part of lead conversion.**
+
+B. Leads can be grouped into queues
+
+C. Leads can be automatically assigned to users or queues
+
+**D. Custom objects that have been related to a lead can be copied when a lead is converted to the account, contact or opporunity**
+
+[https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A8r1rSAB](https://trailhead.salesforce.com/ko/trailblazer-community/feed/0D54S00000A8r1rSAB)
+
+(트레일 블레이저에 그대로 있으나 답이 명확하지는 않은 느낌)
+
+98.You need to ensure that the value in a custom field 'Source Country' is validated against the standard list of ISO countries that are valid for the particular type of order, when the order is saved. What is the best way to achieve this requirement?
+
+A. Create a validation rule using a CASE statement
+
+B. Create a validation rule using the VLOOKUP function
+
+**C. Create a before trigger and validate the value using APEX code**
+
+D. Create an after trigger and validate the value using APEX code.
+
+- 해석
+    
+    주문을 저장할 때 사용자 지정 필드 '원본 국가'의 값이 특정 주문 유형에 유효한 ISO 국가 표준 목록에 대해 검증되는지 확인해야 합니다. 이 요구 사항을 충족하는 가장 좋은 방법은 무엇입니까?
+    
+    A. CASE 문을 사용하여 유효성 검사 규칙을 만듭니다.
+    
+    B. VLOOKUP 함수를 사용하여 유효성 검사 규칙을 만듭니다.
+    
+    C. 트리거 전을 생성하고 APEX 코드를 사용하여 값을 검증합니다.
+    
+    D. After 트리거를 생성하고 APEX 코드를 사용하여 값을 검증합니다
+    
+
+[https://dfc-org-production.force.com/forums/?id=9062I000000BmO5QAK](https://dfc-org-production.force.com/forums/?id=9062I000000BmO5QAK)
+
+99.Which of the following sequences of milestones would represent a typical application lifecycle?
+
+**A. Development, Integration Testing, User Acceptance Testing, Staging, Product Migration**
+
+B. Development, User Acceptance Testing, Production Migration
+
+C. Development, Training, User Acceptance Testing, Staging, Production Migration
+
+D. Development, Integration Testing, User Acceptance Testing, Regression Testing, Production Migration
+
+- 해석
+    
+    다음 중 일반적인 애플리케이션 라이프사이클을 나타내는 이정표는 무엇입니까?
+    
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34d6c780-63be-45a3-9f4b-035800cac0c6/Untitled.png)
+
+(Development Lifecycle Guide - salesforce pdf 참조)
+
+100.What is not true regarding relating Tasks and Events to other objects?
+
+A. Accounts are associated via the WhatID or AccountID
+
+B. Leads are associated via the WhoID
+
+C. Custom Objects are associated via the What ID
+
+D. Assets are associated via the WhatID
+
+**E. Contacts are associated via the WhatID()**
+
+(정확한 답 못찾음)
+
+✔️ WhoID refers to people things.  So that would be typically a Lead ID or a Contact ID
+
+WhatID refers to object type things.  That would typically be an Account ID or an Opportunity ID
+
+101.Which Social Account features can be accessed form SF1?
+
+A. LinkedIn
+
+B. YouTube
+
+C. Facebook
+
+**D. Twitter**
+
+E. All of the above
+
+[https://help.salesforce.com/s/articleView?id=sf.social_networks_overview.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.social_networks_overview.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0668f0f8-2e41-49b4-8bda-8e4b91b36fe2/Untitled.png)
+
+102.When activating a page in the Lightning app builder, what declarative options are available?
+
+**A. Select a tab icon for the page**
+
+B. Select the tab color
+
+**C. Set the tab visibility**
+
+**D. Set the tab order in the navigation menu**
+
+[https://help.salesforce.com/s/articleView?id=sf.lightning_page_getting_into_salesforce1.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.lightning_page_getting_into_salesforce1.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab219c3c-0744-46fe-8760-44e083fb4688/Untitled.png)
+
+103.SF can connect social profiles to all of the following objects except?
+
+A. Leads
+
+B. Person Accounts
+
+C. Business Accounts
+
+D. Contacts
+
+**E. Users**
+
+[https://help.salesforce.com/s/articleView?id=sf.social_networks_guidelines.htm&type=5](https://help.salesforce.com/s/articleView?id=sf.social_networks_guidelines.htm&type=5)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af892cc6-605d-470f-8747-19733df79bfa/Untitled.png)
+
+104.You need to provide a way to invoke a custom report from the account detail page. The report should render values that are specific to the account in context. What are the best options?
+
+**A. Detail Page Button**
+
+B. List Button
+
+**C. Detail Page Links**
+
+D. Visualforce
+
+- 해석
+    
+    계정 세부 정보 페이지에서 사용자 정의 리포트를 호출하는 방법을 제공해야 합니다. 리포트는 컨텍스트에서 계정 관련 값을 렌더링해야 합니다. 가장 좋은 선택지는 무엇일까요?
+    
+
+[https://trailhead.salesforce.com/en/content/learn/modules/lex_customization/lex_customization_buttons_links](https://trailhead.salesforce.com/en/content/learn/modules/lex_customization/lex_customization_buttons_links)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b83edf92-0a60-4ad4-8ef8-a2570bdcb86e/Untitled.png)
+
+105.You have a requirement to ensure that if the discount field on an opp is greater than 30%, the record should be automatically submitted for Approval. Which of the following would help you meet this requirement?
+
+A. Approval Process
+
+B. Workflow
+
+**C. Process Builder**
+
+**D. Visual Workflow**
+
+[https://developer.salesforce.com/forums/?id=906F0000000BPbBIAW](https://developer.salesforce.com/forums/?id=906F0000000BPbBIAW)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72119301-2a8c-49f5-8296-6ac136a7dd1b/Untitled.png)
+
+(D 자료는 못찾음)
+
+106.Contracts must be approved before the status is set to Finalized. How can this requirement be met?
+
+**A. Add a final approval action in the approval process to update a field on the contract and use a validation rule to check this field when the contract status is changed to Finalized.**
+
+B. Use a trigger on the contract object to check the contract has been approved when the status is changed
+
+C. use Process Builder to check the contract is approved when the contract is edited and the status is set to Finalized.
+
+D. Add a validation action in the approval process to ensure the status is not set to 'Finalized' before the contract is approved.
+
+[https://shreysharma.com/approval-process/](https://shreysharma.com/approval-process/)
+
+107.What is true regarding changing the field type of a rich text area?
+
+A. It is not possible to change the field type of a rich text area
+
+**B. Rich text area fields can be converted but only to a long text area field type**
+
+C. Images in a rich text area are deleted when the field type is converted
+
+D. Rich text area fields can be converted to a text area field type but data may be truncated.
