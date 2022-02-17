@@ -3,11 +3,13 @@
 [] build a calculator with flow and stuff (https://trailhead.salesforce.com/ko/content/learn/projects/flow_calculate?trail_id=automate_business_processes)
   [o]261-280
   [o]281-300
-  []301-320
-[] Build a Cat Rescue App That Recognizes Cat Breeds(https://trailhead.salesforce.com/ko/content/learn/projects/build-a-cat-rescue-app-that-recognizes-cat-breeds)
-  []321-340
-  []341-360
-  []361-380
+  [o]200-300
+  [o]301-320
+  [o]321-340
+  [ㅇ]341-360
+  [o]361-380
   []381-400
+  []300-400
+[] Build a Cat Rescue App That Recognizes Cat Breeds(https://trailhead.salesforce.com/ko/content/learn/projects/build-a-cat-rescue-app-that-recognizes-cat-breeds)
 [] repeat mock test at least 
   [][][][][]
