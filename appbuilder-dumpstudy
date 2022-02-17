@@ -6,10 +6,15 @@
   [o]200-300
   [o]301-320
   [o]321-340
-  [ㅇ]341-360
+  [o]341-360
   [o]361-380
-  []381-400
-  []300-400
+  [ㅇ]381-400
+  [ㅇ]300-400
+  []400-430
+  할수있다 화이팅
+  []200-400
+  []1-200
+  []1-430
 [] Build a Cat Rescue App That Recognizes Cat Breeds(https://trailhead.salesforce.com/ko/content/learn/projects/build-a-cat-rescue-app-that-recognizes-cat-breeds)
 [] repeat mock test at least 
   [][][][][]
