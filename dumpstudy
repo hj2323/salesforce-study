@@ -2,7 +2,11 @@ dump question 100 to 200
 ----
 dex450 dump total 364
 [o]dump question 1-50(review39 27
-[o]dump question 51-100(review 56 60 73 90 98 99)
-[] dump question 101-150
-[] dump question 151-200
-
+[o]dump question 51-100(review 56 60 73 78 87 90 91 98 99)
+[o] dump question 101-150(review 111, 114, 126, 141, 143)
+[o] dump question 151-200(161, 172, 174, 183, 185, 198, 200)
+21 63 70 88 97 104 122 133 161 166 186 188 198 200
+[o] dump question 201-250(203, 205 213 214, 228, 232 237 247 248)
+[ㅇ] dump question 251-300(256 259)
+24 36 70 88 93 108 119 126 133 144 163 166
+[ ] dump question 301-364
