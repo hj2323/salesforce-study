@@ -1,0 +1,8 @@
+lessonn 3 surfacer lightning web component
+# topic3 surface lightning web components
+  app builder pages(controlled by admin) vs. Tabs(controlled by developer)
+  - target of lighting__Tab
+  - config false : lightning experience에 나올 필요 없기 때문에 
+  - layoutManager.html : 탭으로 만들어서 등록
+  -- <c-student-browser></c-student-browser>
+  -- <c-student-detail></c-student-detail>
